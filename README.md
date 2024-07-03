@@ -26,5 +26,10 @@
 `git branch -d <branch_name>`
 - Delete the branch if it's already been merged into main
 
+### Steps for creating new repo and opening it
+1. Create a new repo for project on GitHub
+2. clone into local machine
+3. `cd` into newly create clone
+
 ## HTML/CSS
 ! Will give the HTML template
