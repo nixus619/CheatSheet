@@ -11,6 +11,20 @@
 `git push origin main`
 - Pushes everything
 
+`git branch <branch_name>` 
+- Make a new branch
+
+`git checkout <branch_name>`
+- Changes to branch
+
+`git checkout -b <branch_name>`
+- Does the two above at the same time. So it will create a new branch and change to it
+
+`git merge <branch_name>`
+- Take the changes committed in <branch_name> and add them to the branch that you're currently on (you will need to do a `git checkout main` to the branch you want to merge INTO first)
+
+`git branch -d <branch_name>`
+- Delete the branch if it's already been merged into main
 
 ## HTML/CSS
 ! Will give the HTML template
